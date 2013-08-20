@@ -1,5 +1,4 @@
-jQuery(document).ready(function($) {
-
+kindbo = function() {
     		$("body *").replaceText(/ tår /g,' tär ');
 	   		$("body *").replaceText(/ mia /g,' mia ');
     		$("body *").replaceText(/ Ã¥ /g,' å ');
@@ -56,11 +55,11 @@ jQuery(document).ready(function($) {
     		$("body *").replaceText(/ Ja /g,' Ja ');
     		$("body *").replaceText(/ ja/g,' ja');
     		$("body *").replaceText(/Ja /g,'Ja ');
-    		$("body *").replaceText(/ hÃ¤lla Ã¥ pess /g,' hälla å pess ');
+    		$("body *").replaceText(/ hälla Ã¥ pess /g,' hälla å pess ');
     		$("body *").replaceText(/ dek /g,' dek ');
     		$("body *").replaceText(/ te /g,' te ');
     		$("body *").replaceText(/ Te /g,' Te '); 		
-    		$("body *").replaceText(/ brevÃ©/g,' brevé');
+    		$("body *").replaceText(/ brevid/g,' brevé');
     		$("body *").replaceText(/JÃ¤mte /g,'Jämte ');
     		$("body *").replaceText(/ sum /g,' sum ');
     		$("body *").replaceText(/Sum /g,'Sum ');
@@ -115,4 +114,4 @@ jQuery(document).ready(function($) {
     		$("body *").replaceText(/ turistera /g,' turistera ');
     		$("body *").replaceText(/ välkommen /g,' välkummen ');
     		$("body *").replaceText(/ Välkommen /g,' Välkummen ');
-});
+};
