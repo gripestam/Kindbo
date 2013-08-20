@@ -1,0 +1,14 @@
+{   
+   "content_scripts": [ {
+      "js": [ "js/jquery-2.0.3.min.js", "js/words.js", "js/replace.min.js" ], 
+      "matches": [ "http://*/*", "https://*/*"  ]
+   } ],
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "description": "Translates swedish words into Kindbo accent (spoken in the south-east parts of Västra Götaland).", 
+   "manifest_version": 2,
+   "name": "Kindbo",
+   "icons": { 	"16": "icon.jpg",
+				"48": "icon.jpg",
+				"128": "icon.jpg" },   
+   "version": "1.0",
+}
