@@ -7,8 +7,8 @@
    "description": "Translates swedish words into Kindbo accent (spoken in the south-east parts of Västra Götaland).", 
    "manifest_version": 2,
    "name": "Kindbo",
-   "icons": { 	"16": "icon.jpg",
-				"48": "icon.jpg",
-				"128": "icon.jpg" },   
+   "icons": { 	"16": "icon.png",
+				"48": "icon.png",
+				"128": "icon.png" },   
    "version": "1.0",
 }
